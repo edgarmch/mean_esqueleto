@@ -4,7 +4,7 @@ angular.module('appController', [])
         
         Apps.get()
             .success(function(){
-                
+                $scope.p = "HOLA";
                 
             });
  
